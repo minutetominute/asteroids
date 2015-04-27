@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Jose's Escapism</title>
+  </head>
+  <body>
+    <canvas id="game-canvas" width="600" height="600"></canvas>
+    <script type="text/javascript">
+      var canvas = document.getElementById("game-canvas");
+      var ctx = canvas.getContext();
+      var game = new Game();
+      var gameView = new GameView();
+
+      gameView.start();
+    </script>
+  </body>
+</html>
